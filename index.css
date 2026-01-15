@@ -1,0 +1,33 @@
+body{
+	background-color:yellow;
+}
+h1{
+	font-size:100px; <!--Default size 18px-->
+}
+h1:hover{
+	background-color:silver;
+	color:red;
+}
+img{
+	width:98%;
+	height:98%;
+	border:20px black double;
+	border-radius:50px;
+}
+h2{
+	font-size:50px;
+	text-align:center;
+}
+.Img1{
+	width:20%;
+	height:20%;
+	border:10px black-double;
+	border-radius:25px;
+	transition: all 0.5s ease-in-out;
+}
+#I2{
+	height:50%;
+}
+#I2:hover{
+	transform: scale(2.0) rotate(90deg);
+}
