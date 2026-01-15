@@ -1,0 +1,14 @@
+Webpage = Document Object Model (DOM) = Document
+
+Tag = <Opening></Closing>
+HTML Tag = <html></html>
+CSS Tag = <style></style>
+JavaScript Tag = <script></script>
+
+Element = Content between opening and closing tags
+
+To make a new webpage:
+1. Create a new folder for your project
+2. Open the folder in VS Code
+3. Create HTML file
+4. Create basic structure

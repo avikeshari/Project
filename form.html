@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			LogIn
+		</title>
+		<style>
+			body{
+				background-color:dodgerblue;
+				background-image:url(https://i.ytimg.com/vi/GV3HUDMQ-F8/maxresdefault.jpg);
+				background-size:cover;
+			}
+			div{
+				/*background-color:whitesmoke;*/
+				width:35%;
+				font-size:x-large;
+				border:10px solid grey;
+				border-radius:10%;
+				padding:25px;
+			}
+			input{
+				width:300px;
+				height:40px;
+				border-radius:50px;
+				background-color:black;
+				color:white;
+				padding:10px;
+				font-size:large;
+			}
+			button{
+				width:200px;
+				height:40px;
+				border-radius:20px;
+				background-color:red;
+				color:black;
+				font-size:large;
+				transition: all 0.5s ease-in-out;
+			}
+			button:hover{
+				transform: scale(1.1);
+			}
+			::placeholder{
+				font-size:large;
+				color:white;
+				padding:10px;
+			}
+			h1{
+				color:red;
+			}
+			label{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h1>
+				LogIn Form
+			</h1>
+			<form>
+				<label for="na">
+					Name
+				</label>
+				<br/>
+				<input type="text" id="na" placeholder="Enter Name">
+				<br/><br/>
+				<label for="nu">
+					Number
+				</label>
+				<br/>
+				<input type="number" id="nu" placeholder="Enter Number">
+				<br/><br/>
+				<label for="em">
+					E-Mail
+				</label>
+				<br/>
+				<input type="email" id="em" placeholder="Enter E-Mail">
+				<br/><br/>
+				<!--<input type="submit">-->
+				<button>SignIn</button>
+			</form>
+		</div>
+	</body>
+</html>
